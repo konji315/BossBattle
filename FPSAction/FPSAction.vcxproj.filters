@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>f754a714-d1f0-4a4c-b868-04488d5a321d</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dds;dlg;fbx;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{16f9054a-3462-4a13-8364-98fd5e1f27b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collider">
+      <UniqueIdentifier>{4cea4d09-aed6-4de2-8375-a97b4209d79d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weapon">
+      <UniqueIdentifier>{755c179b-6e63-4dff-99a0-b4f67c1e1cbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemy">
+      <UniqueIdentifier>{28cecb3f-2aeb-4f0c-9d65-c6cf2eaea52f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Magic">
+      <UniqueIdentifier>{9dcd5bae-ce91-45ba-bab1-7f4d494cb36d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{fe7ace6f-7de9-4b30-acf1-1b5e643e12ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{6e14f979-47f4-4717-b7b8-e3e9ac09bb3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{5a6f2bed-f3f5-47ee-a627-2fd4fe00beee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{5ce021e8-3979-473c-a30c-624934119c1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture">
+      <UniqueIdentifier>{5b65582f-0356-47d7-9a28-561e83c94403}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="StepTimer.h" />
+    <ClInclude Include="Obj3d.h" />
+    <ClInclude Include="DXTKResouces.h" />
+    <ClInclude Include="Command.h" />
+    <ClInclude Include="Singleton.h" />
+    <ClInclude Include="Classes\Audio\ADX2Le.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Scenes\PlayScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Scenes\Scene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Scenes\TitleScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Camera\Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Camera\DebugCamera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Camera\FPSCamera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Collider\Collision.h">
+      <Filter>Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Collider\CollisionChecker.h">
+      <Filter>Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Collider\CollisionNode.h">
+      <Filter>Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Enemy\BOSS.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Enemy\Enemy.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Enemy\Kakunon.h">
+      <Filter>Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Magic\BossBall.h">
+      <Filter>Magic</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Magic\FireBall.h">
+      <Filter>Magic</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Magic\Magic.h">
+      <Filter>Magic</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Magic\ModelEffect.h">
+      <Filter>Magic</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Manager\EffectManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Player\IPlayerInput.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Player\Player.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Weapon\Wand.h">
+      <Filter>Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Weapon\Weapon.h">
+      <Filter>Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Texture\Canvas.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Texture\Texture.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Audio\PlaySounds.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Manager\AudioManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="LandShape.h" />
+    <ClInclude Include="LandShapeData.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Obj3d.cpp" />
+    <ClCompile Include="DXTKResouces.cpp" />
+    <ClCompile Include="Classes\Audio\ADX2Le.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Scenes\PlayScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Scenes\Scene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Scenes\TitleScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Camera\Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Camera\DebugCamera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Camera\FPSCamera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Collider\Collision.cpp">
+      <Filter>Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Collider\CollisionChecker.cpp">
+      <Filter>Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Collider\CollisionNode.cpp">
+      <Filter>Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Enemy\BOSS.cpp">
+      <Filter>Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Enemy\Kakunon.cpp">
+      <Filter>Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Magic\BossBall.cpp">
+      <Filter>Magic</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Magic\FireBall.cpp">
+      <Filter>Magic</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Magic\ModelEffect.cpp">
+      <Filter>Magic</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Manager\EffectManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Player\IPlayerInput.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Player\Player.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Weapon\Wand.cpp">
+      <Filter>Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Texture\Canvas.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Texture\Texture.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="LandShape.cpp" />
+    <ClCompile Include="LandShapeData.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="settings.manifest">
+      <Filter>Assets</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <MeshContentTask Include="Assets\Skydome.FBX">
+      <Filter>Assets</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\SKyBall.FBX">
+      <Filter>Assets</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\SphereNode.FBX">
+      <Filter>Assets</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\effect1.FBX">
+      <Filter>Assets</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\FoodStands.fbx">
+      <Filter>Assets</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\Wand.fbx">
+      <Filter>Assets</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\kakunonn.fbx">
+      <Filter>Assets</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\BOSS.fbx">
+      <Filter>Assets</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\Field.FBX">
+      <Filter>Assets</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\Ground200m.FBX">
+      <Filter>Assets</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\Wall.FBX">
+      <Filter>Assets</Filter>
+    </MeshContentTask>
+    <MeshContentTask Include="Assets\human.fbx">
+      <Filter>Assets</Filter>
+    </MeshContentTask>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
